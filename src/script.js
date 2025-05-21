@@ -16,7 +16,6 @@ window.speechSynthesis.onvoiceschanged = () => {
 
 voiceSelect.addEventListener('change', ()=>{
     speech.voice = voices[voiceSelect.value]
-    console.log(voices[voiceSelect.value])
 })
 
 document.querySelector('button').addEventListener('click', () => {
